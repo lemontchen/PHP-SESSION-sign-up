@@ -2,6 +2,7 @@
 
 PHP处理session跨域--同一根域名下子域名之间的跨域
 
+可以在入口文件处加上
 
 ini_set('session.name', 'sid'); //设置session_id的键名
 
